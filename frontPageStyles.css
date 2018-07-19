@@ -1,0 +1,17 @@
+.smallCaps {
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
+
+.subMenuTitle {
+  font-size: 0.6em;
+}
+
+.pillButton {
+  border-radius: 25px;
+  /* padding-left: 35px;
+  padding-right: 35px; */
+  padding: 3px 30px 5px 30px;
+  font-size: 0.8em;
+  font-variant: small-caps;
+}
