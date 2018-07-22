@@ -1,5 +1,6 @@
 /* CSS for styling the map page of Coffee and code */
 
+
 #map
 {
     width: 100px;
@@ -8,6 +9,8 @@
     min-width: 100%;
     display: block;
 }
+
+#mapid { height: 500px; }
 
 html, body
 {
