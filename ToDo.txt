@@ -1,0 +1,9 @@
+ToDo:
+
+# add real photos
+
+# Make navbar grey on scrolling down
+# find a way to do the textblock about Meet coders and learn
+
+# hide login button on mobile devices
+# show login option in hamburger menu on mobile devices

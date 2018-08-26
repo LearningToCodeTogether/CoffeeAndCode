@@ -4,47 +4,31 @@ font-family: 'Merriweather', serif; */
 
 
 :root {
-  --off-white-txt-color: #f3f3f3;
   --black-txt-color: #000;
   --light-grey-color: #d3d3d3;
   --yellow-color: #d8aa20;
   --slogan-font-family: 'Mr Dafoe';
-}
-
-/*example:*/
-a {
-  text-decoration: none;
-  color: var(--light-grey-color);
-  font-variant: small-caps;
-}
-
-a:hover {
-  text-decoration: none;
-  color: var(--black-txt-color);
+  --menu-font: 'Roboto Mono';
 }
 
 .smallCaps {
+  font-family: var(--menu-font);
   font-variant: small-caps;
-  font-size: 1.9em;
+  font-size: 2.2em;
 }
 
 .subMenuTitle {
   font-size: 0.8em;
   font-style: italic;
+  padding: 0 5px;
 }
 
 .pillButton {
   border-radius: 25px;
-  /* padding-left: 35px;
-  padding-right: 35px; */
   padding: 3px 30px 5px 30px;
   font-size: 0.8em;
   font-variant: small-caps;
 }
-
-/* .landingPage {
-  height: 100vh;
-} */
 
 #slogan {
   text-align: center;
@@ -81,7 +65,15 @@ a:hover {
   padding-bottom: 20px;
 }
 
+.meetCoders {
+  text-align: center;
+  margin-top: 60px;
+}
 
+.meetCoders h2 {
+  font-size: 2em;
+  font-family: var(--menu-font);
+}
 
 
 
