@@ -1,10 +1,36 @@
+/* font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Merriweather', serif; */
+
+
+:root {
+  --off-white-txt-color: #f3f3f3;
+  --black-txt-color: #000;
+  --light-grey-color: #d3d3d3;
+  --yellow-color: #d8aa20;
+  --slogan-font-family: 'Mr Dafoe';
+}
+
+/*example:*/
+a {
+  text-decoration: none;
+  color: var(--light-grey-color);
+  font-variant: small-caps;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--black-txt-color);
+}
+
 .smallCaps {
   font-variant: small-caps;
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
 
 .subMenuTitle {
-  font-size: 0.6em;
+  font-size: 0.8em;
+  font-style: italic;
 }
 
 .pillButton {
@@ -16,8 +42,24 @@
   font-variant: small-caps;
 }
 
-.landingPage {
+/* .landingPage {
   height: 100vh;
+} */
+
+#slogan {
+  text-align: center;
+  padding-top: 5%;
+}
+
+#slogan h2 {
+  font-size: 1.7em;
+  font-family: var(--slogan-font-family);
+}
+
+#slogan h4 {
+  font-family: 'Merriweather';
+  font-size: 0.8em;
+  color: var(--yellow-color);
 }
 
 .img-fluid {
@@ -27,14 +69,37 @@
 }
 
 .caroHolder {
-  width: 85%;
-  height: 85%;
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
-  margin-top: 15%;
+  margin-top: 25%;
 }
 
 .horizonPhoto {
   max-width: 100vw;
-  margin-top: -130px;
+  margin-top: 85px;
   padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* -- Media Queries -- */
+
+@media (min-width: 768px) {
+  .caroHolder {
+    width: 85%;
+    height: 85%;
+    margin-top: 15%;
+  }
+
+  #slogan h2 {
+    font-size: 2.2em;
+  }
+
+  #slogan h4 {
+    font-size: 1em;
+  }
 }
