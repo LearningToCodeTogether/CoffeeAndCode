@@ -11,13 +11,9 @@ font-family: 'Merriweather', serif; */
   --menu-font: 'Roboto Mono';
 }
 
-.navbar .fixed-top .navbar-expand-lg .navbar-light {
-    background-color: black;
-}
-
 .darken {
   background-color: rgba(229, 229, 229, 0.8);
-  transition: 1s ease .1s;
+  transition: 1s ease 0s;
 }
 
 .smallCaps {
