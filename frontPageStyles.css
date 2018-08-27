@@ -11,6 +11,10 @@ font-family: 'Merriweather', serif; */
   --menu-font: 'Roboto Mono';
 }
 
+.navbar .fixed-top .navbar-expand-lg .navbar-light {
+    background-color: black;
+}
+
 .smallCaps {
   font-family: var(--menu-font);
   font-variant: small-caps;

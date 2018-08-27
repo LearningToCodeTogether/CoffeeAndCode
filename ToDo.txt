@@ -1,6 +1,7 @@
 ToDo:
 
 # add real photos
+# include animate.css for an animation in the slide
 
 # Make navbar grey on scrolling down
 # find a way to do the textblock about Meet coders and learn
