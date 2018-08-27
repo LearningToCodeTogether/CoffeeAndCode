@@ -32,7 +32,7 @@ font-family: 'Merriweather', serif; */
 
 #slogan {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 #slogan h2 {
@@ -67,7 +67,7 @@ font-family: 'Merriweather', serif; */
 
 .meetCoders {
   text-align: center;
-  margin-top: 60px;
+  /* margin-top: 0px; */
 }
 
 .meetCoders h2 {
@@ -82,9 +82,9 @@ font-family: 'Merriweather', serif; */
 
 @media (min-width: 768px) {
   .caroHolder {
-    width: 85%;
-    height: 85%;
-    margin-top: 15%;
+    width: 80%;
+    height: 80%;
+    margin-top: 12%;
   }
 
   #slogan h2 {
