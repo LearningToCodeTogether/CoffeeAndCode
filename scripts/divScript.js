@@ -1,4 +1,4 @@
-let allImages = ['Images/testPhotos/Untitled-1.jpg', 'Images/testPhotos/Untitled-2.jpg', 'Images/testPhotos/Untitled-3.jpg']
+let allImages = ['Images/codePhotos/codeGroup01.jpg', 'Images/codePhotos/codeHands.jpg', 'Images/codePhotos/codingComputer02.jpg']
 
 for (let i = 0; i < allImages.length; i++) {
   let div = document.createElement('div')
