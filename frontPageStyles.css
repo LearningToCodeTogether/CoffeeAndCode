@@ -11,6 +11,11 @@ font-family: 'Merriweather', serif; */
   --menu-font: 'Roboto Mono';
 }
 
+.darken {
+  background-color: rgba(229, 229, 229, 0.8);
+  transition: 1s ease 0s;
+}
+
 .smallCaps {
   font-family: var(--menu-font);
   font-variant: small-caps;
