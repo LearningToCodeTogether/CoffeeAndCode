@@ -15,6 +15,11 @@ font-family: 'Merriweather', serif; */
     background-color: black;
 }
 
+.darken {
+  background-color: rgba(229, 229, 229, 0.8);
+  transition: 1s ease .1s;
+}
+
 .smallCaps {
   font-family: var(--menu-font);
   font-variant: small-caps;
